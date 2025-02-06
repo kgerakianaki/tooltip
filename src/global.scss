@@ -35,3 +35,21 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+/*Style for the tooltip directive*/
+.ng-tooltip{
+    position: absolute;
+    border-radius: 5px;
+    padding:5px;
+    color:#FFF;
+    background-color:#ACCBFE;
+    border:0.5px solid #4C8DFF;
+    opacity: 0.5;
+    transition:opacity 0.3s;
+}
+
+.ng-tooltip-show{
+    opacity: 1;
+}
+/*Style for the tooltip directive*/

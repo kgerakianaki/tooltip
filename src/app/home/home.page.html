@@ -1,20 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="randomThings">
+    <!-- Button with Tooltip -->
+    <ion-button appTooltip="I am an ion-button" placement="right" [delay]="5000">
+    Button
+    </ion-button>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <!-- Icon with Tooltip -->
+    <ion-icon name="logo-ionic" size="large" color="primary" appTooltip="I am an ion-icon" placement="left" [delay]="5000"></ion-icon>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!-- Text with Tooltip -->
+    <ion-label appTooltip="This is some text" placement="right" [delay]="1000" style="color: black;">
+      Hover over this text
+    </ion-label>
+
+    <!-- Card with Tooltip -->
+    <ion-card appTooltip="I am an ion-card" placement="left" [delay]="4000">
+      <ion-card-header>
+        <ion-card-title>Card Title</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        This is some card content.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-col size="2" appTooltip="This is the ion-column" placement="right" [delay]="2500">
+      <div style="height: 70px; background-color: #cf1414; display: flex; align-items: center; justify-content: center;">
+        Column 1
+      </div>
+    </ion-col>
   </div>
 </ion-content>
