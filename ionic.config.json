@@ -1,0 +1,7 @@
+{
+  "name": "tooltip",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
